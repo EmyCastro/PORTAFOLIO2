@@ -1,0 +1,269 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+/* Main Styling */
+html,
+body {
+	font-family: 'Tahoma', sans-serif;
+	background: #ffb563;
+	color: #fff;
+	line-height: 1.5;
+}
+
+h1 {
+	font-size: 41px;
+	position: relative;
+}
+h1::after{
+    content: '';
+    position: absolute;
+    width: 50%;
+    height: 4px;
+    background-color:#fff ;
+    top:110%;
+    left:49%;
+}
+h1::before{
+    content: '';
+    position: absolute;
+    width: 50%;
+    height: 15px;
+    background-color:#fff ;
+    top:110%;
+    left: 0;
+}
+
+
+h2 {
+	font-size: 38px;
+}
+h4 {
+	font-size: 25px;
+}
+
+h1,
+h2,
+h4 {
+	font-family: 'Libre Baskerville', sans-serif;
+	margin-bottom: 15px;
+}
+
+ul {
+	list-style: none;
+}
+
+p {
+	font-size: 15px;
+	margin: 10px 0;
+	line-height: 1.7em;
+	font-weight: 200;
+}
+
+a {
+	text-decoration: none;
+}
+
+hr {
+	border: 1px solid #1c1c1c;
+}
+
+/* Utility Classes */
+.container {
+	max-width: 1200px;
+	margin: 0 auto;
+	padding: 0 30px;
+}
+
+.large {
+	font-size: 18px;
+	margin: auto;
+}
+
+.display-1 {
+	font-size: 80px;
+}
+
+.btn {
+	display: inline-block;
+	font-size: 13px;
+	padding: 20px 45px;
+	text-transform: uppercase;
+	cursor: pointer;
+	font-weight: 400;
+	letter-spacing: 1px;
+}
+
+
+
+/* Header */
+#main{
+	background: url('/imgs/bgphoto.png');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	height: 140vh;
+}
+
+/* Navbar */
+#navbar {
+	height: 120px;
+}
+#navbar a {
+	color: #fff;
+	font-size: 14px;
+	font-weight: 400;
+	text-transform: uppercase;
+}
+
+#navbar .container {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	height: 100%;
+	
+}
+
+#navbar ul {
+	display: flex;
+}
+
+#navbar ul li {
+	margin-left: 40px;
+	position:sticky;
+}
+
+/* Showcase */
+#showcase {
+	text-align: center;
+	padding-top: 200px;
+}
+/* Hab */
+#habi {
+	padding: 80px 0;
+}
+
+#habi h2 {
+	text-align: center;
+}
+
+#habi .habi-row {
+	display: flex;
+}
+
+#habi .habi-row-box {
+	border: 1px solid #fff;
+	margin: 10px;
+	padding: 30px;
+}
+
+#habi .habi-row-box p {
+	padding-bottom: 17px;
+}
+
+/* About */
+#about {
+	padding: 80px 0;
+	display: flex;
+}
+
+#about .about-text {
+	padding: 70px 60px;
+}
+
+/* Portfolio */
+#gt {
+	padding: 50px 0;
+	text-align: center;
+}
+
+.gt-row {
+	display: flex;
+	justify-content: space-between;
+}
+
+.gt-row-box {
+	flex: 1;
+	border: 1px solid #fff;
+	margin: 20px 10px;
+}
+
+.gt-row-box h4 {
+	padding-top: 10px;
+}
+
+.gt-row-box p {
+	padding: 0 20px 10px 20px;
+}
+.img2{
+	height:300px;
+}
+
+
+/* Contact */
+#contact {
+	padding: 50px 0;
+}
+
+#contact h2,
+#contact p {
+	text-align: center;
+}
+
+#contact p {
+	padding-bottom: 40px;
+}
+
+.contact-box {
+	border: 1px solid #fff;
+	padding: 50px 60px;
+	width: 70%;
+	margin: 0 auto;
+}
+
+.contact-box h4 {
+	font-weight: 600;
+	padding-bottom: 20px;
+}
+form .form-group {
+	margin-bottom: 16px;
+}
+
+form .form-control {
+	display: block;
+	width: 50%;
+	padding: 7px 12px;
+	font-size: 1rem;
+	line-height: 1.5;
+	color: #495057;
+	border: 1px solid #ced4da;
+	border-radius: 4px;
+}
+
+.form-row {
+	display: flex;
+}
+
+.form-row input:first-child {
+	margin-right: 20px;
+}
+
+form textarea {
+	font-family: 'Lato', sans-serif;
+}
+.btn {
+    width: 50%;
+    margin:20px 0px;
+    padding:10px 10px;
+    background-color:#FF0090;
+    color:white;
+    font-weight: bold;
+    border:none;
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+}
