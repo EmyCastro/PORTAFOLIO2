@@ -92,7 +92,7 @@ hr {
 	letter-spacing: 1px;
 }
 #main{
-	background: url('/imgs/bgphoto.png');
+	background:url('/imgs/bgphoto.png');
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: center;
